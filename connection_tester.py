@@ -1,4 +1,5 @@
-#run this script after connecting the device to see if the connection request packet was observed. Pass the file name of the current packet capture into the script for a file conversion and to search the file. 
+#run this script after connecting the device to see if the connection request packet was observed.
+#Pass the file name of the current packet capture into the script for a file conversion and to search the file. 
 
 import mmap
 import sys
