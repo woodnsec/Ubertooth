@@ -8,7 +8,7 @@ import os
 f = open(sys.argv[1])
 file = sys.argv[1]
 convert = 'tshark -V -r ' + file + '> ' + file + '.txt'
-command = 'cat ' + str(file) + '.txt | grep CONNECT_REQ -A 13 -B 26 | tee ' + str(file) + '_results.txt'
+command = 'cat ' + file + '.txt | grep CONNECT_REQ -A 13 -B 26 | tee ' + file + '_results.txt'
 
 #convert the pcap to .txt
 print ('Converting ') + sys.argv[1] + (' to a .txt file...\n')
