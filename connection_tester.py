@@ -1,5 +1,6 @@
 #run this script after connecting the device to see if the connection request packet was observed.
 #Pass the file name of the current packet capture into the script for a file conversion and to search the file. 
+# The PCAP must be run from /tmp not ~/tmp for the CONNECT_REQ to be captured properly. 
 
 import sys
 import os
